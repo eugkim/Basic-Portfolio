@@ -4,14 +4,14 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
-
 }
 * {
   box-sizing: border-box;
+  margin: 0;
 }
-//*/** sticky footer styling */
+/* sticky footer styling */
 /* http://ryanfait.com/html5-sticky-footer/ */
-/*html,
+html,
 body {
   height: 100%;
 }
@@ -24,10 +24,10 @@ body {
 footer,
 .push {
   height: 105px;
-}*/
+}
 /* end sticky footer styling */
 /* start hover styling */
-/*#logo:hover,
+#logo:hover,
 input[type=submit]:hover {
   background: #5e7f7e;
 }
@@ -37,9 +37,9 @@ nav a:hover {
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
-}*/
-/* end hover styling */*/*/
-/* general */
+}
+/* end hover styling */
+/* general styling */
 .container {
   width: 100%;
   max-width: 960px;
@@ -162,42 +162,6 @@ h3,
   background: #fff;
   border: 1px solid #ddd;
 }
-/* portfolio page */
-.work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-}
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-.work img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
-}
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-}
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
 /* contact page */
 #contact-form ul {
   margin-bottom: 20px;
@@ -231,4 +195,3 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
